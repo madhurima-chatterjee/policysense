@@ -1,0 +1,31 @@
+id,question,expected_answer,source_policy
+1,How many WFH days can I take per month?,Up to 8 WFH days per month subject to manager approval,Work From Home Policy
+2,Am I eligible for WFH during probation?,Only in exceptional cases with Department Head written approval,Work From Home Policy
+3,How much notice is needed for a planned WFH day?,At least 2 working days in HRMS,Work From Home Policy
+4,What is the internet allowance for WFH?,INR 1000 per month if at least 4 WFH days used,Work From Home Policy
+5,How many casual leaves do I get in a year?,12 days; max 3 consecutive; no carry forward,Leave Policy
+6,How many earned leave days can be carried forward?,Up to 30 days,Leave Policy
+7,How long is maternity leave?,26 weeks for first two children; 12 weeks from third child,Leave Policy
+8,How many days of paternity leave are available?,10 working days within 6 months of birth,Leave Policy
+9,When is a medical certificate required?,For sick leave of more than 2 consecutive days,Leave Policy
+10,What are the standard working hours?,9:30 AM to 6:30 PM including 1 hour lunch,Attendance and Working Hours Policy
+11,How many times can I be late within the grace period?,3 times a month with 15 minutes grace,Attendance and Working Hours Policy
+12,Within how many days can I regularise attendance?,Within 3 working days; max 4 requests a month,Attendance and Working Hours Policy
+13,What is the overtime pay rate on weekdays?,1.5 times normal hourly rate (grades L1-L3 only),Attendance and Working Hours Policy
+14,What is the hotel limit per night in a metro city for L3?,INR 6500,Expense Reimbursement and Travel Policy
+15,Within how many days must I submit an expense claim?,Within 15 days of return,Expense Reimbursement and Travel Policy
+16,Who approves a claim of INR 50000?,Department Head,Expense Reimbursement and Travel Policy
+17,What is the daily meal allowance for domestic travel?,INR 1200 per day,Expense Reimbursement and Travel Policy
+18,How long must my password be and how often changed?,Min 12 characters; every 90 days,Information Security Policy
+19,Within how long must I report a lost laptop?,Within 2 hours,Information Security Policy
+20,Can I paste client data into ChatGPT?,No; confidential/restricted data must not be entered in public gen AI tools,Information Security Policy
+21,Within how many months must a POSH complaint be filed?,Within 3 months (extendable by 3 months),Anti-Sexual Harassment (POSH) Policy
+22,How long does the POSH inquiry take?,Within 90 days,Anti-Sexual Harassment (POSH) Policy
+23,What is the maximum gift value I can accept without declaring?,INR 2000,Code of Conduct and Ethics Policy
+24,Can I accept a gift card from a vendor?,No; cash equivalents never allowed,Code of Conduct and Ethics Policy
+25,What salary increment does a rating of 4 get?,8% to 12%,Performance Review and Appraisal Policy
+26,How many days do I have to appeal my rating?,10 working days,Performance Review and Appraisal Policy
+27,What is the learning budget per year?,INR 25000,Performance Review and Appraisal Policy
+28,Who is the CEO of Nexora?,NOT IN DOCUMENTS - bot should say no answer found,(out of scope)
+29,What is the company's stock price?,NOT IN DOCUMENTS - bot should say no answer found,(out of scope)
+30,How many casual and sick leaves do I get combined?,22 days (12 CL + 10 SL) - multi-fact question,Leave Policy
