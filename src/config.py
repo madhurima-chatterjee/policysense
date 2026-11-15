@@ -14,8 +14,20 @@ CHROMA_DIR = BASE_DIR / "chroma_db"
 
 # ---------- Environment variables ----------
 load_dotenv(BASE_DIR / ".env")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+def _secret(name: str, default: str = "") -> str:
+    """Read from environment/.env first, then from Streamlit Cloud secrets."""
+    value = os.getenv(name)
+    if value:
+        return value
+    try:
+        import streamlit as st
+        return str(st.secrets.get(name, default))
+    except Exception:
+        return default
+
+
+GROQ_API_KEY = _secret("GROQ_API_KEY")
+GROQ_MODEL = _secret("GROQ_MODEL", "openai/gpt-oss-120b")
 
 # ---------- Embeddings ----------
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
